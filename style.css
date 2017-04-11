@@ -1,0 +1,377 @@
+header, article, footer
+{
+    border: solid 2px #139ae3;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    width: 500px;
+    float: center;
+    font-family: arial, sans-serif;
+    color: white;
+    background: #063986;
+    background-size: 100%;
+}
+header
+{
+    height: 50px;
+    font-size: 2em;
+    text-shadow: 1px 1px #bb87a4;
+    color: #e0c7fd;
+    background-color: #441ea4;
+    border: solid 2px #9237ff;  
+}
+nav
+{  
+    width: 150px;
+    height: auto;
+    position: fixed;
+    text-align: left;  
+    margin-left: 5%;
+    background-color: #c12477;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    border: solid 2px #fb35c1;
+    font-family: arial, sans-serif;
+    color: white;    
+}
+
+article
+{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+footer
+{
+    margin-top: 10px;
+    text-align: right;
+    font-size: 0.75em;
+}
+body
+{
+    background: #171126;
+}
+
+h2
+{
+    color: white; 
+}
+h3
+{
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    color: red; 
+    text-align: center;
+}
+h2, h4
+{
+    font-family: arial, sans-serif;
+    font-size: 1em;
+}
+p
+{
+text-indent: 50px;
+}
+ul li, ol li
+{
+    font-size: 0.75em;
+}
+nav ul li a:link, nav ul li a:visited
+{
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+a
+{
+    text-decoration: none;
+    font-family: "courier new", serif, times;
+}
+
+a:link, a:visited
+{ 
+    color: #35fb3a; 
+}
+a:hover 
+{ 
+    color: #27bd2b; 
+}  
+/* -------------------------extra classes---------------------------- */
+.titleclass
+{
+    font-size: 1.5em;
+}
+.tagclass
+{
+    font-family: "courier new", serif;
+    font-size: 1em;
+}
+.subtitleclass
+{
+    font-size: 1.5em;
+    text-shadow: 1px 1px #808080;
+    color: #f6eae1;
+}
+.citationclass
+{
+    font-family: "courier new", serif, times;
+}
+.noindent
+{
+    text-indent: 0px;
+}
+.referenceclass
+{
+  padding-left: 22px;
+  text-indent: -22px;
+  line-height: 30px;
+  font-family: "courier new", serif, times;
+}
+
+.centerfooter
+{
+    text-align: center;
+    text-indent: 0;
+}
+.rightfooter
+{
+    text-align: right;
+}
+/* -------------------------classes for lab 2---------------------------- */
+.article-lab2
+{
+    background: black;
+}
+/* -------------------------classes for lab 3---------------------------- */
+.title-lab3
+{
+    font-size: 1.5em;
+    text-shadow: 1px 1px #808080;
+    color: #ffe6ff;
+}
+.header-lab3
+{   
+    border: solid 1px gray;
+    border-right: solid 3px gray;
+    border-bottom: solid 3px gray;
+    font-family: arial, helvetica, tahoma;
+    background: #cbb2ea;
+    margin: 10px auto 10px auto;
+    width: 500px;
+    float: center;
+    color: white;
+    background-size: 100%;
+}
+.nav-lab3
+{  
+    width: 150px;
+    height: auto;
+    position: fixed;
+    text-align: left;  
+    margin-left: 5%;
+    background-color: #cbb2ea;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    border: solid 1px gray;
+    font-family: arial, sans-serif;
+    color: white;       
+}
+.article-lab3
+{   
+    border: solid 1px gray;
+    border-right: solid 3px gray;
+    border-bottom: solid 3px gray;
+    font-family: arial, helvetica, tahoma;
+    background: #cbb2ea;
+    margin: 10px auto 10px auto;
+    width: 500px;
+    float: center;
+    color: white;
+    background-size: 100%;
+}
+.p-lab3
+{
+    text-indent: 50px;
+    text-shadow: 0.5px 0.5px #808080;      
+}
+.body-lab3
+{
+    background-color: #e6f2ff;
+}
+.footer-lab3
+{
+    height: 20px;
+    margin-top: 10px;
+    width: 510px;
+    text-align: right;
+    padding-right: 10px;
+    border: solid 1px gray;
+    padding: 5px;
+    border-right: solid 3px gray;
+    border-bottom: solid 3px gray;
+    font-family: arial, helvetica, tahoma;
+    background-color: #cbb2ea;
+    color: white;
+    font-size: 1em;
+}
+.dropbtn-lab3 {
+    background-color: #e6f2ff;
+    color: gray;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    float: center;
+    width: 145px;
+    font-size: 12px;
+    border: solid 1px gray;
+}
+/* -------------------------classes for lab 4---------------------------- */
+.a-lab4, .a-lab4:link, .a-lab4:visited
+{
+    color: white;
+    font-weight: bold;
+    font-family: courier, sans-serif;
+}
+.article-lab4
+{
+    background: black;
+    background: url(../earth.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+/* -------------------------classes for lab 5---------------------------- */
+.title-lab5
+{
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #bb87a4;
+}
+.a-lab5, .a-lab5:link, .a-lab5:visited
+{
+    color: #bb87a4;
+    font-weight: bold;
+    font-family: arial, serif;
+}
+.article-lab5
+{
+    border: solid 1px #ecb8d7;
+    background: url(../pink.png) no-repeat;
+    color: #bb87a4;
+}
+
+.body-lab5
+{
+    background: url(../bemine.png) center center fixed;
+    background-size: cover;
+    image-rendering: pixelated;
+}
+.footer-lab5
+{
+    border: solid 1px #ecb8d7;
+    background: url(../pink.png) no-repeat;
+    color: #bb87a4;
+}
+/* -------------------------classes for lab 7---------------------------- */
+.a-lab7, .a-lab7:link, .a-lab7:visited
+{
+    color: #fb35c1;
+    font-family: arial, sans-serif;
+}
+#img-lab7
+{
+    image-rendering: pixelated;
+}
+/* -------------------------classes for drop down button---------------------------- */
+.dropbtn {
+    background-color: #fb35c1;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    float: center;
+    width: 145px;
+    font-size: 12px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 145px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    font-family: arial, sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #fb35c1;
+}
+/* -------------------------div classes---------------------------- */
+#description {
+    font-size: 0.9em;
+    border: solid 2px #9237ff;
+    height: 10px;
+    width: 500px;
+    margin: -2px auto 10px auto;
+    padding: 10px;
+    color: #e2348c;
+    background: #171126;
+}
+
+#avatar {
+    width: 64px;
+    float: right; 
+    margin: 5px; 
+    border: solid 2px #f77e52;
+}
+
+#rotation {
+    width: 64px;
+    float: right; 
+    margin: 5px; 
+    border: solid 2px #f77e52;
+     -ms-transform: rotate(20deg); /* IE 9 */
+     -webkit-transform: rotate(20deg);
+           /* Chrome, Safari, Opera */
+     transform: rotate(20deg);
+}
+#books {
+    width: auto;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+#books td
+{
+    border: solid 1px #ecb8d7;
+    padding: 10px;
+}
+#books th 
+{
+    border: solid 1px #ecb8d7;
+    padding: 10px;
+}
+
+#clear
+{
+    clear: both;
+}
